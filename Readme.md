@@ -53,7 +53,7 @@ screen -S init
 ##### Tüm Çekirdeklere Yüklenen Model : 
 
 ```bash
-./iniminer-linux-x64 --pool stratum+tcp://0x0304f5193FCe6A27e3789c27EE2B9D95177e21A5.Worker001@pool-core-testnet.inichain.com:32672 
+./iniminer-linux-x64 --pool stratum+tcp://0x0304f5193FCe6A27e3789c27EE2B9D95177e21A5.Worker001@pool-a.yatespool.com:31588 
 ```
 ![image](https://github.com/user-attachments/assets/c1dd2098-a6a5-49a7-90cb-9ce42b7b8307)
 
@@ -61,13 +61,13 @@ screen -S init
 ##### Dilerseniz Çekirdeklere Yüklenmesini Ayarlayabilirsiniz Misal Alttaki komut 1 Thread Kullanmak için  --cpu-devices :
 
 ```bash
-./iniminer-linux-x64 --pool stratum+tcp://0x0304f5193FCe6A27e3789c27EE2B9D95177e21A5.Worker001@pool-core-testnet.inichain.com:32672 --cpu-devices 1
+./iniminer-linux-x64 --pool stratum+tcp://0x0304f5193FCe6A27e3789c27EE2B9D95177e21A5.Worker001@pool-a.yatespool.com:31588 --cpu-devices 1
 ```
 
 #### Multi CPU Ayarlamak İçin --cpu-devices ekleyebilirsiniz misal  4 Thread için - kısaca her çekirdek için yazıp sayıyı arttırıyoruz : 
 
 ```bash
-./iniminer-linux-x64 --pool stratum+tcp://0x0304f5193FCe6A27e3789c27EE2B9D95177e21A5.Worker001@pool-core-testnet.inichain.com:32672 --cpu-devices 1 --cpu-devices 2 --cpu-devices 3 --cpu-devices 4 
+./iniminer-linux-x64 --pool stratum+tcp://0x0304f5193FCe6A27e3789c27EE2B9D95177e21A5.Worker001@pool-a.yatespool.com:31588 --cpu-devices 1 --cpu-devices 2 --cpu-devices 3 --cpu-devices 4 
 ```
 
 ![image](https://github.com/user-attachments/assets/c5b535eb-47c8-4cc7-9167-9851438b18f4)
