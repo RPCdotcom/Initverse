@@ -85,6 +85,7 @@ Misal 9'luda Böyle Kullanıyor :
 
 ## Ne Kadar Kastık Durumlar Ne Dasboard'ı : 
 
-- Link : https://genesis-testnet.yatespool.com/ 
+- Link A POOL : https://a.yatespool.com
+- Link B POOL : https://b.yatespool.com
 
 - Cüzdan adresinizi yazıp search butonuna basın - biraz geç yükleniyor.
